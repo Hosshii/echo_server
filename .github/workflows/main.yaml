@@ -37,5 +37,5 @@ jobs:
       - name: artifact
         uses: actions/upload-artifact@v1
         with:
-          name: echo
-          path: echo
+          name: echo_server
+          path: ./target/release/echo_server
